@@ -1,0 +1,779 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Github Sponser</title>
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+      background-color: black;
+      color: white;
+      margin: 0px;
+      /* padding: 20px; */
+
+    }
+
+    .headerleft {
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .headerright {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .headertitle {
+      padding: 5px;
+      font-size: 20px;
+
+    }
+
+    .githubicon {
+      font-size: 25px;
+    }
+
+    .search {
+      background-color: black;
+      border-color: white;
+      padding: 10px;
+      /* width: 60%; */
+      border-radius: 10px;
+      border: none;
+    }
+
+    .signup {
+      background-color: black;
+      border-color: white;
+      padding: 10px;
+      color: white;
+      border-radius: 10px;
+    }
+
+    .signup:hover {
+      color: #ffffff;
+
+    }
+
+    .headerright1 {
+      border: 1px solid white;
+      display: flex;
+      justify-content: space-between;
+      /* width:100%; */
+      align-items: center;
+    }
+
+    .slash {
+      margin-right: 10px;
+      border: 1px solid gray;
+      /* margin-bottom: 30px; */
+      /* margin: 20px; */
+      padding: 5px;
+
+    }
+
+    .headerright2 {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    .header1 {
+      margin-top: 10px;
+      padding: 20px;
+      border-bottom: 1px solid gray;
+      box-shadow: 0px 5px 5px 0px gray;
+      border: none;
+
+
+    }
+
+    .sponsers {
+      font-size: 20px;
+      font-weight: 500;
+      color: black;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .icon {
+      padding: 10px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: black;
+    }
+
+    .getsponsered {
+      padding: 10px;
+      font-weight: 500;
+      /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: black;
+    }
+
+    .getsponsered:hover {
+      text-decoration: underline;
+    }
+
+    .githubpage1 {
+      padding: 20px;
+      margin-top: 20px;
+
+      /* background-color: white; */
+    }
+
+    .githubsponser {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px
+    }
+
+    .head {
+      font-size: 35px;
+      color: #24292f;
+    }
+
+    .buttonfordependencies {
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      padding: 20px;
+      margin: 10px;
+      width: 20%;
+    }
+
+    .buttonfordependencies:hover {
+      background-color: #24292f;
+    }
+
+    .buttonforsponsered {
+      color: black;
+      border-color: black;
+      border-radius: 10px;
+      padding: 20px;
+      width: 15%;
+      background-color: white;
+    }
+
+    .buttonforsponsered:hover {
+      background-color: #eaeef2;
+    }
+
+    .page1 {
+      padding: 30px;
+    }
+
+    .githubinf {
+      font-size: 40px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      /* padding:30px; */
+
+
+    }
+
+    .c1 {
+      color: #24292f;
+    }
+
+    .c2 {
+      color: gray;
+    }
+
+    .cards {
+      display: flex;
+      /* justify-content: space-evenly; */
+      gap: 60px;
+      /* width: 100%; */
+    }
+
+    .card1 {
+      background-color: #eaeef2;
+      border: 1px solid gray;
+      padding: 20px;
+      width: 25%;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .like {
+      font-size: 30px;
+    }
+
+    .value {
+      font-size: 20px;
+      color: black;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .text {
+      color: gray;
+      margin-bottom: 30px;
+    }
+
+    .page2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      width: 100%;
+    }
+
+    .part1 {
+      width: 30%;
+      /* text-align: center; */
+      align-content: center;
+      display: grid;
+    }
+
+    .paret1text {
+      color: #24292f;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .href {
+      text-decoration: none;
+    }
+
+    .page3 {
+      background-color: #eaeef2;
+      padding: 70px;
+      /* width: 70%; */
+      padding-left: 40px;
+      padding-right: 40px;
+
+
+    }
+
+    .mark {
+      font-size: 100px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: auto;
+      width: 80%;
+    }
+
+    .Shopify {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 40px;
+      margin: auto;
+      width: 80%;
+
+    }
+
+    .img {
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+      margin: auto;
+      width: 80%;
+      margin-top: 60px;
+
+
+
+
+    }
+
+    .page3inner {
+      border: 1px solid gray;
+      border-radius: 10px;
+      background-color: white;
+      margin-top: 30px;
+      height: 80vh;
+    }
+
+    .innerpart {
+      text-align: center;
+      font-size: 50px;
+      color: #24292f;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 40px;
+      /* height: 50vh; */
+      font-weight: 600;
+    }
+
+    .innerpart1 {
+      text-align: center;
+      margin-bottom: 50px;
+
+    }
+
+    .line {
+      text-align: center;
+      font-size: 50px;
+      margin-top: 50px;
+      font-weight: 400;
+
+    }
+
+    .card3 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .threecard {
+      border: 1px solid gray;
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 25%;
+      border: none;
+      margin-top: 30px;
+      /* margin: 30px; */
+      padding-top: 20px;
+      padding-right: 20px;
+      /* height: 50vh; */
+
+    }
+
+    .threecard:hover {
+      animation: blink 0.5s infinite;
+
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .three1 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .webcheck {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      margin: 10px;
+
+      border-radius: 20px;
+      /* width: 100%; */
+    }
+
+    .three2 {
+      margin-top: 20px;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .three3 {
+      color: gray;
+      margin-top: 10px;
+    }
+
+    .three4 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-decoration: none;
+    }
+
+    .none {
+      text-decoration: none;
+    }
+
+    .question {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .page4 {
+      text-align: center;
+      width: 60%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+
+    .questiontitle {
+      font-size: 40px;
+      font-weight: 500;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .question1 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+    }
+
+    .question2 {
+      color: palevioletred;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .page5 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      padding: 20px;
+    }
+
+    .pageone {
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .pagefour {
+      padding: 20px;
+      background-color: none;
+      color: black;
+      border-radius: 10px;
+      margin-top: 30px;
+      /* margin-bottom: 20px; */
+      /* padding-top: 20px; */
+      /* padding-bottom: 20px; */
+      /* margin: 20px; */
+      /* width:200%; */
+
+    }
+
+    .pagetwo {
+      color: black;
+      font-weight: 300;
+      margin-top: 30px;
+
+    }
+
+    .pagethree {
+      color: #24292f;
+    }
+
+    .product {
+      margin-bottom: 10px;
+      color: 24292f;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      /* width: 100%; */
+    }
+
+    .footerleft {
+      /* padding: 20px; */
+      /* width:50%; */
+
+    }
+
+    .footerright {
+      /* width:50%; */
+    }
+
+    .footer1 {
+      margin: 6px;
+      color: #24292f;
+    }
+
+    .imageradius {
+      border-radius: 20px;
+    }
+
+    .azamat {
+      padding: 10px;
+      margin-bottom: 4px;
+    }
+
+    .senior {
+      padding: 10px;
+      color: #57606a;
+      margin-bottom: 60px;
+    }
+
+    /* .heart{ */
+    /* width:40%; */
+    /* } */
+    .main {
+      width: 30%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="headerleft">
+      <i class="fa fa-github githubicon" aria-hidden="true"></i>
+      <span class="headertitle">Product<i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+      <span class="headertitle">Solution<i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+      <spanc class="headertitle">Resources<i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+        <span class="headertitle">Open Source<i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+        <span class="headertitle">Enterprise<i class="fa fa-angle-down" aria-hidden="true"></i> </span>
+        <span class="headertitle">Pricing</span>
+    </div>
+    <!--  -->
+    <div class="headerright">
+      <div class="headerright1">
+        <div><span><i class="fa fa-search" aria-hidden="true"></i> </span>
+          <span> <input type="text" placeholder="Search Or Jump to.." class="search"></span>
+        </div>
+        <div class="slash"> / </div>
+      </div>
+      <div class="headerright2">
+        <span>Sign in</span>
+      </div>
+      <div class="headerright3">
+        <span>
+          <button class="signup">Sign Up</button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="header1">
+    <span class="sponsers">Sponsers</span>
+    <span class="icon">/</span>
+    <span class="getsponsered"> See Your Top dependencies</span>
+    <span class="getsponsered">Get sopnsered</span>
+  </div>
+  <!--  -->
+  <div class="page1">
+    <div class="githubpage1">
+      <button class="githubsponser">GitHub Sponser</button>
+      <span class="head">
+        <h1>Support the developers who<br /> power open source</h1>
+      </span>
+    </div>
+    <div>
+      <button class="buttonfordependencies">See Your Top dependencies ></button>
+      <button class="buttonforsponsered">Get Sponsered ></button>
+    </div>
+    <div>
+      <img
+        src="https://images.ctfassets.net/8aevphvgewt8/240toQ0ZKtCDivfrF8vdcj/af5f59a4164a83a205a9c589ecc882b0/Hero.webp?w=1248&fm=webp&q=90"
+        class="imageradius">
+    </div>
+    <div class="githubinf">
+      <span class="c1">GitHub Sponsors allows the developer<br />community</span><span class="c2"> to financially
+        support the open<br /> source projects they depend on, directly on<br /> GitHub</span>
+    </div>
+    <div class="cards">
+      <div class="card1">
+        <i class="fa fa-heart-o like heart" aria-hidden="true"></i>
+        <div class="value"> $40M+ </div>
+        <div class="text"> Given back to our maintainers </div>
+      </div>
+      <div class="card1">
+        <div><i class="fa fa-globe like" aria-hidden="true"></i></div>
+        <div class="value"> 103</div>
+        <div class="text">Regions supported globally</div>
+      </div>
+      <div class="card1">
+        <div><i class="fa fa-building-o like" aria-hidden="true"></i> </div>
+        <div class="value"> 4.2k+</div>
+        <div class="text">Organizations sponsoring </div>
+      </div>
+    </div>
+    <div class="page2">
+      <div class="part1">
+        <h1>For maintainers </h1>
+        <div class="paret1text">Launch a page in minutes and showcase Sponsors buttons on your GitHub profile and
+          repositories! You will
+          automatically appear in worldwide recommendations to partners who are eager to invest in their open source
+          dependencies</div>
+        <div><a href="#" class="href">Get Sponsered ></a></div>
+      </div>
+      <div>
+        <img
+          src="https://images.ctfassets.net/8aevphvgewt8/42Fzdk9a23AuuYuTViBVVJ/c64b9444b08668d2992e78463a853d82/Image.webp?w=720&fm=webp&q=90"
+          class="imageradius">
+      </div>
+    </div>
+    <div class="page2">
+      <div>
+        <img
+          src="https://images.ctfassets.net/8aevphvgewt8/3z9uFxoAGAOnmfu9KsZACQ/00b55684a5331b2d917e4939d966a589/Image_Area__60_40_.webp?w=720&fm=webp&q=90"
+          class="imageradius">
+      </div>
+      <div class="part1">
+        <h1>For sponsors </h1>
+        <div class="paret1text">Find and fund your dependencies in a single transaction. The discovery and bulk
+          sponsorship tools are easy to use. Flexible payment enables you to choose when and how you pay. Corporations
+          like Microsoft like it because all their payments go out as a single invoice. </div>
+        <div> <a href="#" class="href">Learn about invoice biling ></a></div>
+      </div>
+    </div>
+    <div class="page2">
+      <div class="part1">
+        <h1>Help open source thrive
+        </h1>
+        <div class="paret1text">Everyone should be able to contribute to open source. Making open source a viable,
+          financially rewarding career path helps contribute to our digital infrastructure. More funding, more projects,
+          more software to power our world.
+        </div>
+        <div><a href="#" class="href">See Your Top dependencies></a></div>
+      </div>
+      <div>
+        <img
+          src="https://images.ctfassets.net/8aevphvgewt8/6wiE9miII032Gezk0o9Te1/ee11fc2f683d83dbbf09b2d69bd75f96/Image_Area__60_40__2.webp?w=720&fm=webp&q=90"
+          class="imageradius">
+      </div>
+    </div>
+
+  </div>
+  <!-- page1 -->
+  <div class="page3">
+    <div class="mark"> “ </div>
+    <div class="Shopify">Shopify uses GitHub Sponsors to efficiently manage<br /> and fund projects within the open
+      source community,<br /> tailored to the needs of recipients. </div>
+    <div class="img">
+      <!-- <div> -->
+      <img
+        src="https://images.ctfassets.net/8aevphvgewt8/HLOaLspfdGpLJFaivD2W1/cc542f8a6efbe9d935acae8700d37197/shopify_glyph.png?fm=webp&w=120&q=90"
+        width="5%">
+      <!-- </div> -->
+      <div>
+        <div class="azamat">Azmat Yuhanna </div>
+        <div class="senior">Senior Engineering Operations Manager, Shopify </div>
+      </div>
+    </div>
+    <div class="page3inner">
+      <div class="innerpart">Invest in open source. It<br /> powers your world.</div>
+      <div class="innerpart1">
+        <button class="buttonfordependencies">See Your Top dependencies ></button>
+        <button class="buttonforsponsered">Get Sponsered ></button>
+      </div>
+
+    </div>
+    <div class="line">The internet depends on open source, everywhere </div>
+    <div class="card3">
+      <div class="threecard">
+        <div class="three1">
+          <div><i class="fa fa-heart-o heart " aria-hidden="true"></i> </div>
+          <div><button class="webcheck">Web-Check</button></div>
+        </div>
+        <div class="three2">Comprehensive website security and health monitoring with performance analysis</div>
+        <div class="three3">Web-Check provides real-time monitoring for uptime, speed, and user experience, trusted by
+          businesses like Amazon, Shopify, and Airbnb.</div>
+        <div class="three4"> <a href="#" class="none">Sponser Web-Check > </a></div>
+      </div>
+      <div class="threecard">
+        <div class="three1">
+          <div><i class="fa fa-heart-o" aria-hidden="true"></i> </div>
+          <div><button class="webcheck">OpenWebUI</button></div>
+        </div>
+        <div class="three2">Intuitive, open-source interface for native GenAI applications</div>
+        <div class="three3">OpenWebUI simplifies the development of interactive GenAI apps using LLMs, used by
+          developers at companies like Microsoft, IBM, and GitHub.</div>
+        <div class="three4"> <a href="#" class="none">Sponser openwebUI > </a></div>
+      </div>
+      <div class="threecard">
+        <div class="three1">
+          <div><i class="fa fa-heart-o" aria-hidden="true"></i> </div>
+          <div><button class="webcheck">cURL</button></div>
+        </div>
+        <div class="three2">A command line tool and library for transferring data with URL syntax</div>
+        <div class="three3">cURL is included in almost every modern device–smartphones, cars, TVs, laptops, servers,
+          consoles, printers, and beyond.</div>
+        <div class="three4"> <a href="#" class="none">Sponser cURL> </a></div>
+      </div>
+    </div>
+    <div class="page4">
+      <div class="questiontitle">Frequently asked questions </div>
+      <div class="question">
+        <div class="question1"> How do I sponsor a project? </div>
+        <div class="question2"> + </div>
+      </div>
+      <hr />
+      <div class="question">
+        <div class="question1"> How do I get paid for my contributions? </div>
+        <div class="question2"> + </div>
+      </div>
+      <hr />
+      <div class="question">
+        <div class="question1"> Do I need to fill out a tax form to receive sponsorships? </div>
+        <div class="question2"> + </div>
+      </div>
+      <hr />
+    </div>
+  </div>
+  <div class="page5">
+    <div>
+      <div class="pageone"><i class="fa fa-github" aria-hidden="true"></i> GitHub </div>
+      <div class="pagetwo">Subscribe to our developer newsletter </div>
+      <div class="pagethree">Get tips, technical guides, and best practices. Twice a month. Right in your inbox. </div>
+      <div><button class="pagefour">Subscribe</button></div>
+    </div>
+    <div>
+      <div class="product">Product</div>
+      <div class="product">Features</div>
+      <div class="product">Enterprise</div>
+      <div class="product">Copilot</div>
+      <div class="product">Security</div>
+      <div class="product">Pricing</div>
+      <div class="product">Team</div>
+      <div class="product">Resources</div>
+      <div class="product">Roadmap</div>
+      <div class="product">compare Github</div>
+    </div>
+    <div>
+      <div class="product">Platform</div>
+      <div class="product">Developer API</div>
+      <div class="product">Partners</div>
+      <div class="product">Education</div>
+      <div class="product">GitHub CLI</div>
+      <div class="product">GitHub Desktop</div>
+      <div class="product">GitHub Mobile</div>
+    </div>
+    <div>
+      <div class="product">Support</div>
+      <div class="product">Docs</div>
+      <div class="product">Community Forum</div>
+      <div class="product">Professional Services</div>
+      <div class="product">Premium Support</div>
+      <div class="product">Skills</div>
+      <div class="product">Status</div>
+      <div class="product">Contact GitHub</div>
+    </div>
+    <div>
+      <div class="product">Company</div>
+      <div class="product">About</div>
+      <div class="Product">Customer stories</div>
+      <div class="Product">Blog</div>
+      <div class="product">Careers</div>
+      <div class="product">Newsroom</div>
+      <div class="product">Inclusion</div>
+      <div class="product">Social Impact</div>
+      <div class="product">Shop</div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footerleft">
+      <span class="footer1">© 2025 GitHub, Inc.</span>
+      <span class="footer1">Terms</span>
+      <span class="footer1">Privacy(Updated 02/2024)</span>
+      <span class="footer1">Sitemap</span>
+      <span class="footer1">What is Git?</span>
+      <span class="footer1">Manage cookies</span>
+      <span class="footer1"> Do not share my personal information</span>
+    </div>
+    <div class="footerright">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      <i class="fa fa-times" aria-hidden="true"></i>
+      <img src="https://static.vecteezy.com/system/resources/previews/004/542/856/large_2x/tiktok-tik-tok-musically-logo-icon-social-media-icons-set-logo-illustrator-free-vector.jpg" width="20">
+      <i class="fa fa-twitch" aria-hidden="true"></i>
+      <i class="fa fa-github" aria-hidden="true"></i>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,1105 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>microsoft team</title>
+  <style>
+    .bodyelement {
+      background-color: #f7f7f7;
+      margin: 0px;
+    }
+
+    .header {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px
+        /* margin-top:-30px; */
+    }
+
+    .title1 {
+      font-size: 20px;
+    }
+
+    .title {
+      padding: 10px;
+    }
+
+    .button {
+      padding: 10px;
+      background-color: white;
+      border-radius: 7px;
+    }
+
+    .firstpage {
+      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-hero-background?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=770&qlt=100&fmt=png-alpha&fit=constrain");
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      /* justify-content: initial; */
+      /* top:20%; */
+      /* left:80%; */
+      padding-left: 80px;
+      /* padding-right: 20px; */
+      /* position: absolute; */
+      /* right: 20%; */
+      margin: auto;
+
+
+    }
+
+    .db {
+      /* top:10%; */
+      /* left:20%; */
+      /* height: 100vh; */
+      /* display: flex; */
+      /* align-items: center;  */
+    }
+
+    .text {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: gray;
+
+    }
+
+    .signin {
+      background-color: #5d5bd4;
+      color: white;
+      padding: 15px;
+      border-radius: 10px;
+
+    }
+
+    .download {
+      background-color: transparent;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .inner {
+      /* margin-left: 150px; */
+
+      margin-top: 40px;
+
+    }
+
+    .firstpageend {
+      padding: 20px;
+      font-weight: 600;
+    }
+
+    .end {
+      padding: 20px;
+    }
+
+    .secondpage {
+      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-overview-background?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=745&qlt=100&fmt=png-alpha&fit=constrain");
+      /* height: 200vh; */
+      padding: 20px;
+    }
+
+    .secondmiddle {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .border1 {
+      border: 1px solid gray;
+      border-radius: 10px;
+      width: 25%;
+      padding: 20px;
+      background-color: white;
+      border: none;
+    }
+
+    .imageborder {
+      border: 1px solid gray;
+      background-color: white;
+      border-radius: 10px;
+      width: 10%;
+      padding: 10px;
+      /* border: none; */
+    }
+
+    .startthedemo {
+      margin-top: 20px;
+      background-color: #5d5bd4;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      width: 8%;
+      padding: 8px;
+    }
+
+    .data {
+      color: gray;
+    }
+
+    .headline {
+      font-size: 20px;
+      font-weight: 100;
+      margin-bottom: 30px;
+      margin-top: 30px;
+
+    }
+
+    .firsthalf {
+      display: flex;
+      justify-content: space-between;
+      /* width: 100%; */
+    }
+
+    .divbutton1 {
+      background-color: white;
+      border-radius: 50px;
+      border: none;
+      padding: 15px;
+    }
+
+    .divbutton {
+      background-color: #5d5bd4;
+      color: white;
+      border-radius: 50px;
+      border: none;
+      padding: 15px;
+    }
+
+    .background {
+      background-color: white;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 30px;
+    }
+
+    .sepratebutton {
+      margin-top: 40px;
+      /* padding: 10px; */
+
+    }
+
+    .homebutton {
+      border-radius: 20px;
+      padding: 10px;
+      background-color: #5d5bd4;
+      border: none;
+      color: white;
+    }
+
+    .homebutton1 {
+      border-radius: 20px;
+      padding: 10px;
+      background-color: lightblue;
+      border: none;
+      color: #333275;
+    }
+
+    .box {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .box1 {
+      border: 1px solid gray;
+      border-radius: 10px;
+      background-color: white;
+      padding: 20px;
+      /* border: none; */
+      height: 800px;
+      width: 25%;
+      margin-top: 30px;
+    }
+
+    .icons {
+      /* margin-top:50px; */
+      /* margin-bottom: 50px; */
+      padding: 5px;
+    }
+
+    .href {
+      margin-top: 20px;
+      text-decoration-color: black;
+    }
+
+    .buynow {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #333275;
+      border-radius: 10px;
+      border: none;
+      color: white;
+    }
+
+    .trynow {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      color: black;
+    }
+
+    .boxheight {
+      height: 70%;
+    }
+
+    .middle {
+
+      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/340650-cta-banner-1600x568?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=710&qlt=100&fmt=png-alpha&fit=constrain");
+      width: 100%;
+      height: 50vh;
+      text-align: center;
+    }
+
+    .middle1 {
+      background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/free-productivity-apps-Background-FAQ?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85);
+      padding: 30px;
+    }
+
+    .middle2 {
+      width: 85%;
+      margin: auto;
+
+    }
+
+    .insideMiddle {
+      display: flex;
+      /* gap: 50px; */
+      justify-content: space-between;
+      /* justify-content: space-evenly; */
+    }
+
+    .inner {
+      border: 1px solid gray;
+      width: 40%;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: white;
+      /* border:none ; */
+    }
+
+    .microsoft {
+      display: flex;
+      /* margin-top: 30px; */
+      /* text-align: center; */
+    }
+
+    .inner1 {
+      /* display: flex; */
+      /* align-items: center; */
+    }
+
+    .img {
+      border: 1px solid gray;
+      padding: 3px;
+      background-color: white;
+      width: 10%;
+    }
+
+    .microsoftcopt {
+      color: #5d5bd4;
+      font-size: 15px;
+      padding: 10px;
+    }
+
+    .powerbi {
+      /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .data {
+      color: gray;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .b1 {
+      background-color: #5d5bd4;
+      padding: 10px;
+      border: none;
+      color:white;
+    }
+
+    .apps {
+      padding: 10px;
+    }
+
+    .six1 {
+      background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-cardgrid-background?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=897&qlt=100&fmt=png-alpha&fit=constrain);
+      height: 500px;
+      padding: 20px
+    }
+
+    .threecard {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .b2 {
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 10px;
+      width: 30%;
+      background-color: white;
+    }
+
+    .team {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 200;
+
+    }
+
+    .text {
+      color: gray;
+      margin-bottom: 30px;
+    }
+
+    .d1 {
+      padding: 10px;
+      background-color: #5d5bd4;
+      border: none;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .learn {
+      padding: 10px;
+    }
+
+    .s1 {
+      display: flex;
+      justify-content: space-between;
+      /* width: 50%; */
+    }
+
+    .sb1 {
+      padding: 10px;
+      margin-top: 10px;
+      border-color: #333275;
+      border-radius: 6px;
+      font-weight: 600;
+      color: #333275;
+      background-color: #ffffff;
+    }
+
+    .sb2 {
+      padding: 10px;
+      margin-top: 10px;
+      border-color: lightgray;
+      border-radius: 6px;
+      font-weight: 600;
+      color: #333275;
+      background-color: #ffffff;
+    }
+
+
+
+
+    .s2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      /* margin: auto; */
+      /* width: 90%; */
+    }
+
+    .span1 {
+      margin-left: 80px;
+      font-size: 20px;
+      font-weight: 500;
+      /* margin-top: 20px; */
+      /* margin-bottom: 20px; */
+      /* width: 80%; */
+    }
+
+    .no {
+      font-size: 20px;
+      font-weight: 500;
+      color: #5d5bd4;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 80%;
+    }
+
+    .span2 {
+      background-color: #5d5bd4;
+      padding: 5px;
+      color: white;
+      border: none;
+    }
+
+    .hr {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      color: black;
+      border-color: black;
+      /* width: 80%; */
+    }
+
+    .numbers {
+      margin-bottom: 20px;
+    }
+
+    .lastone {
+      /* background-color: #fff; */
+      display: flex;
+      padding: 20px;
+    }
+
+    .new {
+      font-weight: 400;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      /* padding: 20px; */
+      color: black;
+    }
+
+    .ld1 {
+      margin-top: 10px;
+      margin-bottam: 10px;
+      color: gray;
+    }
+
+    .addingpadding {
+      padding: 20px;
+    }
+
+    .microsoft {
+      /* background-color: white; */
+      /* padding: 10px; */
+      /* margin-top: 50px; */
+      /* margin-bottom: 50px; */
+      /* width: 100%; */
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      /* padding: 50px; */
+      /* margin: 20px; */
+    }
+
+    .choice {
+      display: flex;
+      justify-content: flex-start;
+      padding: 20px;
+      color: grey;
+    }
+
+    .c1 {
+      padding: 10px;
+    }
+
+    .choice1 {
+      display: flex;
+      justify-content: flex-end;
+      color: grey;
+
+    }
+
+    .padding {
+      margin: auto;
+      width: 90%;
+    }
+
+    .main {
+      margin: auto;
+      width: 90%;
+    }
+
+    .space {
+      padding: 10px;
+    }
+    .divwidth{
+      width:80%;
+    }
+  </style>
+</head>
+
+<body class="bodyelement">
+  <div class="header">
+    <div>
+      <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" width="15%">
+      <span class="title1"> | Teams</span>
+      <span class="title"> products <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+      <span class="title"> Features <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+      <span class="title"> pricing <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+      <span class="title"> Solutions <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+      <span class="title">Resources <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </span>
+      <span class="title">Support</span>
+    </div>
+    <div>
+      <div>
+        <button class="button">Download Teams</button>
+        <button class="button">sign in</button>
+      </div>
+    </div>
+  </div>
+  <div class="firstpage">
+    <div class="db">
+      <h1>Microsoft Teams </h1>
+      <span class="text">Teams helps you organize your life and work, chat and <br />call with anyone, and access your
+        files securely.
+      </span>
+      <div>
+        <button class="signin">Sign In</button>
+        <button class="download">Download Teams</button>
+      </div>
+    </div>
+  </div>
+  <div class="firstpageend">
+    <span class="end">Overview</span>
+    <span class="end">Plan</span>
+    <span class="end">Resources</span>
+    <span class="end">FAQ</span>
+  </div>
+  <div class="secondpage">
+    <!-- <img src="https://cdn-dynmedia-1.Fmicrosoft.com/is/image/microsoftcorp/348616-overview-background?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=745&qlt=100&fmt=png-alpha&fit=constrain"> -->
+    <span>Overview</span>
+    <h1>Learn how to use Teams
+    </h1>
+    <div class="secondmiddle">
+      <div class="border1">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/348616-overview-gettingstarted-24X24?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=24&hei=24&qlt=100&fit=constrain"
+          class="imageborder">
+        <div class="headline"> Getting Started </div>
+        <div class="data">Learn how to create and manage teams and channels, turn on language translations, and share
+          files.</div>
+        <div>
+          <button class="startthedemo"> > </button>
+          <span>Start the Demo</span>
+        </div>
+      </div>
+      <div class="border1">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/348616-overviewmeeting-24X24?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=24&hei=24&qlt=100&fit=constrain"
+          class="imageborder">
+        <div class="headline"> Meetings</div>
+        <div class="data">Learn how to transition from a chat to a call, manage calendar invites, and use background
+          effects.
+        </div>
+        <div>
+          <button class="startthedemo"> > </button>
+          <span> Start the Demo</span>
+        </div>
+      </div>
+      <div class="border1">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/348616-overview-tips-and%20Tricks-24X24?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=24&hei=24&qlt=100&fit=constrain"
+          class="imageborder">
+        <div class="headline">Tips and Tricks </div>
+        <div class="data">Save time by using Copilot in Teams to get highlights from your chats.
+        </div>
+        <div>
+          <button class="startthedemo"> > </button>
+          <span> Watch the Video</span>
+        </div>
+      </div>
+    </div>
+    <!-- firsthalfcompleted -->
+    <div class="firsthalf">
+      <div>
+        <span>plans</span>
+        <h1>Find the right Teams plan for your needs </h1>
+      </div>
+      <div>
+        <div class="background">
+          <button class="divbutton">Yearly</button>
+
+          <button class="divbutton1">Monthly</button>
+        </div>
+      </div>
+    </div>
+    <div class="sepratebutton">
+      <button class="homebutton"> Business</button>
+      <button class="homebutton1"> Home</button>
+      <button class="homebutton1"> Enterprise</button>
+    </div>
+
+    <div class="box">
+      <div class="box1">
+        <div class="boxheight">
+          <h1>Microsoft Teams Essentials </h1>
+          <h1>$4.00 </h1>
+          <span>user/month, paid yearly </span>
+          <div>(Annual subscription—auto renews)1 </div>
+          <div>
+            <button class="buynow">Buy Now</button>
+          </div>
+          <div>
+            <li>Unlimited group meetings for up to 30 hours and 300 participants </li>
+            <li>10 GB of cloud storage per user </li>
+            <li>Real-time collaboration with file sharing, tasks, and polling </li>
+          </div>
+        </div>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Teams-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <hr />
+        <div class="href">
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="box1">
+        <div class="boxheight">
+
+          <h1>Microsoft 365 Business Basic </h1>
+          <h1>$6.00 </h1>
+          <span>user/month, paid yearly </span>
+          <div>(Annual subscription—auto renews)1 </div>
+          <div>
+            <button class="buynow">Buy Now</button>
+            <button class="trynow">Try Now</button>
+          </div>
+          <span>See trial terms2
+          </span>
+          <div>
+            <li>Identity and access management for up to 300 users </li>
+            <li>Web and mobile versions of Word, Excel, PowerPoint, Outlook, and other apps </li>
+            <li>Custom business email</li>
+            <li>Chat, call, meet </li>
+            <li> 1 TB of cloud storage per user </li>
+            <li> 10+ additional apps (including Microsoft Bookings, Planner, and Forms) </li>
+          </div>
+        </div>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Word-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Excel-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Powerpoint-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OneNote_17x17?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Outlook-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Exchange_17x17?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Teams-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-OneDrive-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Sharepoint_17x17?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <hr />
+        <div class="href">
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="box1">
+        <div class="boxheight">
+
+          <h1>Microsoft 365 Business Basic </h1>
+          <h1>$12.50
+          </h1>
+          <span>user/month, paid yearly </span>
+          <div>(Annual subscription—auto renews)1 </div>
+          <div>
+            <button class="buynow">Buy Now</button>
+            <button class="trynow">Try Now</button>
+          </div>
+          <span>See trial terms2
+          </span>
+          <div>
+            <li>Identity and access management for up to 300 users </li>
+            <li>Web and mobile versions of Word, Excel, PowerPoint, Outlook, and other apps </li>
+            <li>Custom business email</li>
+            <li>Chat, call, meet </li>
+            <li> 1 TB of cloud storage per user </li>
+            <li> 10+ additional apps (including Microsoft Bookings, Planner, and Forms) </li>
+          </div>
+        </div>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Word-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fmt=png-alpha&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Excel-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Powerpoint-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/OneNote_17x17?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=85"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Outlook-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Exchange_17x17?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-Teams-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Icon-OneDrive-28x281?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Sharepoint_17x17?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=32&hei=32&qlt=100&fit=constrain"
+          width="5%" class="icons">
+        <hr />
+        <div class="href">
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <!-- third part start -->
+    <div class="middle">
+      <h1>Get the Teams mobile app </h1>
+      <div>Connect and communicate on the go by accessing Teams on your mobile device. </div>
+      <img
+        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-qr-code?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=176&hei=176&qlt=100&fit=constrain">
+      <div>Use this option if you're having trouble with the QR code. </div>
+    </div>
+    <!-- fourth part start -->
+    <div class="middle1">
+      <span>PARTNER SOLUTIONS </span>
+      <h1>Apps for M365 </h1>
+      <div>Improve your business outcomes with your favorite apps—seamlessly within Microsoft 365.
+      </div>
+    </div>
+    <!-- fifth part start -->
+    <div class="middle2">
+      <div class="insideMiddle">
+        <div class="inner">
+          <div class="microsoft">
+            <img
+              src="https://store-images.s-microsoft.com/image/apps.25076.9236e8c9-9c06-40dd-952d-54670b6def09.f0ae5a63-e418-4991-aa32-341192a3466e.b326cbb7-3444-4bc1-b4a8-4c6dcd8fec9d.png"
+              class="img">
+            <div class="inner1">
+              <div class="microsoftcopt"> Microsoft Corporation </div>
+              <div class="powerbi"> Power BI </div>
+            </div>
+          </div>
+          <div class="data">Collaborate better with your data. </div>
+          <div class="footer">
+            <div class="divwidth">
+              <img src="https://thumbs.dreamstime.com/z/yellow-star-10805319.jpg" width="5%">
+              <span>4.5(112880)</span>
+            </div>
+            <div>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="inner">
+          <div class="microsoft">
+            <img
+              src="https://store-images.s-microsoft.com/image/apps.3856.9322d801-18ce-407b-a6e5-5f23d7e182b0.406c3716-8f0e-4b02-b748-b734e3002714.53acfc94-b5e2-4e3f-8f2b-5d9f98581d42.png"
+              class="img">
+            <div class="inner1">
+              <div class="microsoftcopt"> Microsoft Corporation </div>
+              <div class="powerbi"> Copilot</div>
+            </div>
+          </div>
+          <div class="data">Your copilot for work </div>
+          <div class="footer">
+            <div class="divwidth">
+              <img src="https://thumbs.dreamstime.com/z/yellow-star-10805319.jpg" width="5%">
+              <span>4.5(112880)</span>
+            </div>
+            <div>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="middle2"> -->
+      </div>
+      <div class="insideMiddle">
+        <div class="inner">
+          <div class="microsoft">
+            <img
+              src="https://store-images.s-microsoft.com/image/apps.16022.76bd76a9-dd08-45af-8fbb-83136361ba29.53e3d20a-d38e-4fda-b83d-edd73022f860.f5996c3f-1dfa-47e3-87d9-31482c013f19.png"
+              class="img">
+            <div class="inner1">
+              <div class="microsoftcopt"> ADOBE INC.
+              </div>
+              <div class="powerbi">Adobe Acrobat for Microsoft Teams and Outlook
+              </div>
+            </div>
+          </div>
+          <div class="data">Gain insights, edit, convert, and collaborate on PDFs
+
+          </div>
+          <div class="footer">
+            <div class="divwidth">
+              <img src="https://thumbs.dreamstime.com/z/yellow-star-10805319.jpg" width="5%">
+              <span>4.5(112880)</span>
+            </div>
+            <div>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- <div class="inner displayNone"></div> -->
+    </div>
+    <div class="apps">
+      <button class="b1"> > </button>
+      <span> View All Apps</span>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="six1">
+    <span>Resources</span>
+    <h1>Explore Teams news and resources </h1>
+    <div class="threecard">
+      <div class="b2">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-resources-card1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=429&qlt=100&fit=constrain"
+          width="100%">
+        <div class="team">Teams support </div>
+        <div class="text">Find how-to articles, tutorials, and instructional content. </div>
+        <div>
+          <button class="d1"> > </button>
+          <span class="learn">Learn More</span>
+        </div>
+      </div>
+      <div class="b2">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-resources-card2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=429&qlt=100&fit=constrain"
+          width="100%">
+        <div class="team">Teams adoption
+        </div>
+        <div class="text">Use adoption and training resources to quickly get started with Teams.
+        </div>
+        <div>
+          <button class="d1"> > </button>
+          <span>Learn More</span>
+        </div>
+      </div>
+      <div class="b2">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/348616-resources-card3?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=429&qlt=100&fit=constrain"
+          width="100%">
+        <div class="team">Teams blogs
+        </div>
+        <div class="text">Learn about new feature releases, best practices, and trends.
+
+        </div>
+        <div>
+          <button class="d1"> > </button>
+          <span>Go to the Blog</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- seventh -->
+  <div class="padding">
+    <div class="s1">
+      <div>
+        <h1>Frequently asked questions </h1>
+      </div>
+      <div>
+        <button class="sb1">Expand All</button>
+        <button class="sb2">Collapse All</button>
+      </div>
+    </div>
+    <div class="s2">
+      <div>
+        <span class="no">01/</span>
+        <span class="span1">How do I create a Teams meeting?</span>
+      </div>
+      <div>
+        <button class="span2">+</button>
+      </div>
+    </div>
+    <hr />
+    <div class="s2">
+      <div>
+        <span class="no">02/</span>
+        <span class="span1">Can I join a Teams meeting without a Teams subscription?</span>
+      </div>
+      <div>
+        <button class="span2">+</button>
+      </div>
+    </div>
+    <hr />
+    <div class="s2">
+      <div>
+        <span class="no">03/</span>
+        <span class="span1">Do I need to install the Teams app to be able to use Teams?</span>
+      </div>
+      <div>
+        <button class="span2">+</button>
+      </div>
+    </div>
+    <hr />
+    <div class="hr">
+      <hr />
+    </div>
+  </div>
+  <div class="main">
+    <div>
+      <div> [1] </div>
+      <div class="numbers">Cancellation policies for paid subscriptions may vary based on factors such as your customer
+        status, your
+        product, and your domain selections on Microsoft. You may cancel your subscription at any time in the Microsoft
+        365 admin center. Certain subscriptions may incur a cancellation fee.<a href="#">Learn how to cancel your
+          Microsoft 365 subscription.</a> When a subscription is canceled, all associated data will be deleted.<a
+          href="#"> Learn more about data retention, deletion, and destruction in Microsoft 365. When a subscription is
+          canceled, all associated data will be deleted.</a>
+      </div>
+    </div>
+    <div>
+      <div> [2] </div>
+      <div class="numbers">After your one-month free trial, you will be charged the applicable subscription fee. A
+        credit
+        card is required
+        to sign up. Cancel anytime to stop future charges.
+      </div>
+    </div>
+    <div>
+      <div> [3]</div>
+      <div class="numbers">Microsoft 365 Copilot may not be available for all markets and languages. To purchase,
+        customers must have a
+        qualifying plan for <a href="#">enterprise </a>or <a href="#">business.</a>
+      </div>
+    </div>
+    <div>
+      <div>[4]</div>
+      <div class="numbers">AI usage limits apply; AI features only available to subscription owner and cannot be
+        shared.<a href="#">Learn more.</a></div>
+    </div>
+    <div>
+      <div>[5]</div>
+      <div class="numbers">pilot in Excel requires AutoSave to be enabled, meaning the file must be saved to OneDrive;
+        it
+        doesn't function
+        with unsaved files.</div>
+    </div>
+    <div>
+      <div>[6]</div>
+      <div class="numbers">Copilot features in Outlook apply to accounts with @outlook.com, @hotmail.com, @live.com, or
+        @msn.com email
+        addresses and are available in Outlook.com, Outlook built into Windows, Outlook on Mac, and iOS and Android
+        apps. 
+      </div>
+    </div>
+    <div>
+      <div>[7]</div>
+      <div class="numbers">Identity theft monitoring is only available in the United States and US territories. </div>
+    </div>
+  </div>
+  <div class="microsoft">
+    Follow Microsoft 365
+    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/LinkedIn-29?scl=1" width="2%" class="space">
+    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Twitter-34?scl=1" width="2%" class="space">
+    <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blog-1?scl=1" width="2%" class="space">
+  </div>
+  <div class="lastone">
+    <div class="addingpadding">
+      <div class="new">What's new</div>
+      <div class="ld1">Surface Pro</div>
+      <div class="ld1"> Surface Laptop</div>
+      <div class="ld1"> Surface Laptop Studio 2</div>
+      <div class="ld1">Surface Laptop Go 3</div>
+      <div class="ld1">Microsoft Copilot</div>
+      <div class="ld1">AI in Windows</div>
+      <div class="ld1"> Explore Microsoft products</div>
+      <div class="ld1">Windows 11 apps</div>
+    </div>
+    <div class="addingpadding">
+      <div class="new">Microsoft Store</div>
+      <div class="ld1">Account profile</div>
+      <div class="ld1">Download Center</div>
+      <div class="ld1">Microsoft Store support</div>
+      <div class="ld1">Returns</div>
+      <div class="ld1">Order tracking</div>
+      <div class="ld1">Certified Refurbished</div>
+      <div class="ld1">Microsoft Store Promise</div>
+      <div class="ld1">Flexible Payments</div>
+    </div>
+    <div class="addingpadding">
+      <div class="new"> Education</div>
+      <div class="ld1">Microsoft in education</div>
+      <div class="ld1">Devices for education</div>
+      <div class="ld1">Microsoft Teams for Education</div>
+      <div class="ld1">Microsoft 365 Education</div>
+      <div class="ld1">How to buy for your school</div>
+      <div class="ld1">ducator training and development</div>
+      <div class="ld1">Deals for students and parents</div>
+      <div class="ld1">Azure for students</div>
+    </div>
+    <div class="addingpadding">
+      <div class="new">Business</div>
+      <div class="ld1">Microsoft Cloud</div>
+      <div class="ld1">Microsoft Security</div>
+      <div class="ld1">Dynamics 365</div>
+      <div class="ld1">Microsoft 365</div>
+      <div class="ld1">Microsoft Power Platform</div>
+      <div class="ld1"> Microsoft Teams</div>
+      <div class="ld1">Microsoft 365 Copilot</div>
+      <div class="ld1">Small Business</div>
+    </div>
+    <div class="addingpadding">
+      <div class="new">Developer & IT</div>
+      <div class="ld1">Azure</div>
+      <div class="ld1">Microsoft Developer</div>
+      <div class="ld1">Microsoft Learn</div>
+      <div class="ld1">Explore ISV Success</div>
+      <div class="ld1">Microsoft Tech Community</div>
+      <div class="ld1">Azure Marketplace</div>
+      <div class="ld1">AppSource</div>
+      <div class="ld1">Visual Studio</div>
+    </div>
+    <div class="addingpadding">
+      <div class="new">Company</div>
+      <div class="ld1">Careers</div>
+      <div class="ld1">About Microsoft</div>
+      <div class="ld1">Company news</div>
+      <div class="ld1">Privacy at Microsoft</div>
+      <div class="ld1">Investors</div>
+      <div class="ld1">Diversity and inclusion</div>
+      <div class="ld1">Accessibility</div>
+      <div class="ld1">Sustainability</div>
+    </div>
+  </div>
+  <div class="choice">
+    <span class="c1">English (United States)</span>
+    <span class="c1">Your Privacy Choices</span>
+    <span class="c1">Consumer Health Privacy</span>
+  </div>
+  <div class="choice1">
+    <span class="c1">Sitemap </span>
+    <span class="c1">Contact </span>
+    <span class="c1">Microsoft Privacy</span>
+    <span class="c1">Terms of use</span>
+    <span class="c1">Trademarks </span>
+    <span class="c1">Safety & eco Recycling About our ads © Microsoft 2025</span>
+  </div>
+
+
+
+
+</body>
+
+</html>
