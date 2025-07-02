@@ -1,0 +1,303 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>PhonePay Contact</title>
+    <link rel="stylesheet" type="text/css" href="/css/phonpaycontact.css">
+
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* background-color: #\f8f8f8; */
+            /* padding: 10px 20px; */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 50px;
+            /* width: 100%; */
+            /* color: white; */
+        }
+
+        .linksname {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .logo {
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: flex-start; */
+            /* width: 10%; */
+
+        }
+
+        .firstpage {
+            background-image: url("https://www.phonepe.com/webstatic/10788/static/06a70874f6960ce1d507fc78e784a27f/c608a/contact-us-hero-desktop.png");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .phonpaycontact {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .forhelp {
+            position: absolute;
+            top: 60%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+        }
+
+        .phonepaysupport {
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+            align-items: center;
+            /* gap: 20px; */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 70px;
+            width: 80%;
+            margin: auto;
+            /* margin-top:0px; */
+            /* line-height: 100px; */
+            background: white;
+            box-shadow: 0 12px 26px rgba(0, 0, 0, 0.1),
+                0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            top: -40px;
+            flex-direction: row;
+            ;
+
+        }
+
+        .aboutsupport {
+            /* font-size: 15px; */
+            /* font-weight: 300; */
+            /* color: blue; */
+            padding: 10px 20px;
+            /* border-radius: 30px; */
+            /* background-color: #f0f0f0; */
+            /* text-align: center; */
+            /* width: 200px; */
+            align-items: center;
+            box-sizing: border-box;
+            color: #6739b7;
+            cursor: pointer;
+            display: flex;
+            font-size: 1rem;
+            height: 200%;
+            justify-content: center;
+            min-width: -moz-min-content;
+            min-width: min-content;
+            position: relative;
+            text-align: center;
+            width: 100%;
+            border-right: 1px solid #ccc;
+        }
+
+        .aboutsupport:hover {
+            color: #f0f0f0;
+            background-color: #6739b7;
+        }
+
+        .secondpage {
+            height: 100vh;
+            /* background-color: #f0f0f0; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .support-container {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .fisrtsupport {
+            font-size: 30px;
+            font-weight: 700;
+            color: #6739b7;
+            /* text-align: center; */
+            margin-top: 20px;
+        }
+
+        .paragraph {
+            font-size: 15px;
+            font-weight: 400;
+            color: #333;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+
+        .gethelp {
+            background-color: #6739b7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 150px;
+        }
+
+        .foronline {
+            font-size: 20px;
+            font-weight: 600;
+            color: #6739b7;
+            margin-top: 30px;
+        }
+
+        .text {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .onboardnow {
+            color: #6739b7;
+            ;
+            /* padding: 10px 20px; */
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .video-container {
+            /* align-items: center; */
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MjIiIGhlaWdodD0iNDAwIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgNDIyIDQwMCI+PGNpcmNsZSBjeD0iMjAwIiBjeT0iMjAwIiByPSIyMDAiIGZpbGw9IiNENUVFRUUiLz48Y2lyY2xlIGN4PSI0MDAiIGN5PSI0NyIgcj0iMjIiIGZpbGw9IiNEQ0Q3RjciLz48L3N2Zz4=);
+            background-position: 50%;
+            background-repeat: no-repeat;
+            display: flex;
+            width: 50%;
+            /* height: 100; */
+        }
+
+        .thirdpage {
+            height: 100vh;
+            /* background-color: #f0f0f0; */
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+            padding: 20px;
+        }
+
+        .address {
+            font-size: 30px;
+            font-weight: 700;
+            color: #6739b7;
+            /* text-align: center; */
+            margin-top: 20px;
+        }
+        .location {
+            font-size: 20px;
+            font-weight: 400;
+            color: #6c6c6c;
+            margin-top: 20px;
+            line-height: 1.6;
+            width: 50%;
+        }
+        .mapicon {
+            font-size: 20px;
+            font-weight: 400;
+            color: #6739b7;
+            margin-top: 20px;
+            line-height: 1.6;
+            cursor: pointer;
+            gap:10px;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/free-phonepe-logo-icon-download-in-svg-png-gif-file-formats--payment-app-application-indian-companies-pack-logos-icons-2249157.png?f=webp&w=512"
+                width="300" height="130" alt="PhonePay Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#" class="linksname"> Our Solutions</a>
+            <a href="#" class="linksname">Press</a>
+            <a href="#" class="linksname">Careers</a>
+            <a href="#" class="linksname">About Us</a>
+            <a href="#" class="linksname">Blog</a>
+            <a href="#" class="linksname">Contact Us</a>
+            <a href="#" class="linksname">Trust & Safety</a>
+        </div>
+    </div>
+    <!-- firstheader complete -->
+    <div class="firstpage">
+        <div class="phonpaycontact">Contact Us</div>
+        <div class="forhelp">We are here to help you</div>
+    </div>
+    <div class="phonepaysupport">
+        <div class="aboutsupport">Customer Support</div>
+        <div class="aboutsupport">Merchant Support</div>
+        <div class="aboutsupport">Payment Gateway Support</div>
+        <div class="aboutsupport">Report Fraud</div>
+        <div class="aboutsupport">Report Ethics Concerns</div>
+    </div>
+    <!-- firstpage complete -->
+    <div class="secondpage">
+        <div class="support-container">
+            <div class="fisrtsupport">Payment Gateway Support</div>
+            <div class="paragraph">If you need any help, log into your PhonePe Payment Gateway dashboard, click HELP,
+                select the topic,
+                and click Contact Us.</div>
+            <button class="gethelp">Get Help <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+            <div class="foronline">Want to start using PhonePe Payment Gateway for your online business?</div>
+            <div class="text">Click the button below to onboard with us, and start accepting payments on your website or
+                app.</div>
+            <div class="onboardnow"><i class="fa fa-user" aria-hidden="true"></i> Onboard Now</div>
+        </div>
+        <div class="video-container">
+            <video width="540" height="360" controls>
+                <source src="https://www.phonepe.com/webstatic/10788/videos/contactus/PG-Support-Tab.mp4">
+            </video>
+        </div>
+    </div>
+    <hr />
+    <!-- second page complete -->
+    <div class="thirdpage">
+        <div>
+            <div class="address">Registered Address</div>
+            <div class="location">PhonePe Limited
+                (Formerly known as 'PhonePe Private Limited')
+                Office-2, Floor 5, Wing A, Block A,
+                Salarpuria Softzone, Bellandur Village,
+                Varthur Hobli, Outer Ring Road, Bangalore South,
+                Bangalore, Karnataka, India, 560103
+                CIN: U67190KA2012PTC176031</div>
+                <div class="mapicon"><i class="fa fa-map-marker" aria-hidden="true"></i>View In Maps</div>
+        </div>
+        <div>
+    <img src="C:\Users\pooja\OneDrive\Desktop\pooja\internalcss\Assets">
+        </div>
+
+    </div>
+
+</body>
