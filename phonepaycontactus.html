@@ -212,6 +212,7 @@
             /* text-align: center; */
             margin-top: 20px;
         }
+
         .location {
             font-size: 20px;
             font-weight: 400;
@@ -220,6 +221,7 @@
             line-height: 1.6;
             width: 50%;
         }
+
         .mapicon {
             font-size: 20px;
             font-weight: 400;
@@ -227,8 +229,81 @@
             margin-top: 20px;
             line-height: 1.6;
             cursor: pointer;
-            gap:10px;
+            gap: 10px;
             display: flex;
+        }
+
+        .footer {
+            /* background-color: #6739b7; */
+            /* color: white; */
+            /* text-align: start; */
+            padding: 20px;
+            /* position: relative; */
+            display: flex;
+            justify-content: space-around;
+            gap: 30px
+                /* width: 100%; */
+        }
+
+        .linkstitle {
+            font-size: 20px;
+            font-weight: 700;
+            /* color: #6739b7; */
+            margin-bottom: 10px;
+            margin-top: 60px;
+        }
+
+        .linkstitle:hover {
+            color: #6739b7;
+        }
+
+        .linksname {
+            font-size: 16px;
+            font-weight: 400;
+            color: #6c6c6c;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+
+        .linksname:hover {
+            color: #6739b7;
+        }
+
+        .downloadbutton {
+            /* background-color: #6739b7; */
+            background-color: white;
+            /* border: none; */
+            /* padding: 10px 10px; */
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            color: black;
+        }
+
+        .socialmedia {
+            display: flex;
+            justify-content: end;
+            /* align-items: center; */
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .icon {
+            font-size: 30px;
+            color:white;
+            background-color: black;
+            cursor: pointer;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+
+        .footerline {
+            text-align: center;
+            font-size: 14px;
+            color: #6c6c6c;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -292,12 +367,107 @@
                 Varthur Hobli, Outer Ring Road, Bangalore South,
                 Bangalore, Karnataka, India, 560103
                 CIN: U67190KA2012PTC176031</div>
-                <div class="mapicon"><i class="fa fa-map-marker" aria-hidden="true"></i>View In Maps</div>
+            <div class="mapicon"><i class="fa fa-map-marker" aria-hidden="true"></i>View In Maps</div>
         </div>
         <div>
-    <img src="C:\Users\pooja\OneDrive\Desktop\pooja\internalcss\Assets">
+            <img src="C:\Users\pooja\OneDrive\Desktop\pooja\internalcss\Assets\map image.png" class="mapimage"
+                width="500" height="400" alt="Map Image">
         </div>
 
+    </div>
+    <hr />
+    <!-- third page complete -->
+    <div class="footer">
+        <!-- <div> -->
+        <img src="https://i.pinimg.com/736x/88/ff/f3/88fff330d69dcd30c90efbfa6410376d.jpg" width="200" height="150"
+            alt="PhonePay Logo">
+        <!-- </div> -->
+        <div>
+            <div class="linkstitle">Business Solutions</div>
+            <div class="linksname">Payment Gateway</div>
+            <div class="linksname"> E-commerce PG</div>
+            <div class="linksname">UPI Payment Gateway</div>
+            <div class="linksname">Guardian by PhonePe</div>
+            <div class="linksname">Express Checkout</div>
+            <div class="linksname">Offline Merchant</div>
+            <div class="linksname">Offline Payment Partner</div>
+            <div class="linksname"> Advertise on PhonePe</div>
+            <div class="linksname">SmartSpeaker</div>
+            <div class="linksname">POS Machine</div>
+            <div class="linksname">Payment Links</div>
+            <div class="linksname">Travel and Commute</div>
+        </div>
+        <div>
+            <div class="linkstitle">Insurance</div>
+            <div class="linksname">Motor Insurance</div>
+            <div class="linksname"> Bike Insurance</div>
+            <div class="linksname">Car Insurance</div>
+            <div class="linksname">Health Insurance</div>
+            <div class="linksname">Arogya Sanjeevani Policy</div>
+            <div class="linksname">Life Insurance</div>
+            <div class="linksname"> Term Life Insurance</div>
+            <div class="linksname">Personal Accident Insurance</div>
+            <div class="linksname">Travel Insurance</div>
+            <div class="linksname">International Travel Insurance</div>
+        </div>
+        <div>
+            <div class="linkstitle">Investments</div>
+            <div class="linksname">24K Gold</div>
+            <div class="linksname">Liquid Funds</div>
+            <div class="linksname">Tax Saving Funds</div>
+            <div class="linksname">Equity Funds</div>
+            <div class="linksname">Debt Funds</div>
+            <div class="linksname">Hybrid Funds</div>
+            <div class="linkstitle">Lending</div>
+            <div class="linksname">Consumer Lending</div>
+            <div class="linksname">Merchant Lending</div>
+        </div>
+        <div>
+            <div class="linkstitle">General</div>
+            <div class="linksname">About Us</div>
+            <div class="linksname">Careers</div>
+            <div class="linksname">Contact Us</div>
+            <div class="linksname">Press</div>
+            <div class="linksname">Ethics</div>
+            <div class="linksname">Report Vulnerability</div>
+            <div class="linksname">Merchant Partners</div>
+            <div class="linksname">Blog</div>
+            <div class="linksname">Tech Blog</div>
+            <div class="linksname">PhonePe Pulse</div>
+        </div>
+        <div>
+            <div class="linkstitle">Legal</div>
+            <div class="linksname">Terms & Conditions</div>
+            <div class="linksname">Privacy Policy</div>
+            <div class="linksname">Grievance Policy</div>
+            <div class="linksname">How to Pay</div>
+            <div class="linksname"> E-Waste Policy</div>
+            <div class="linksname">Trust & Safety</div>
+            <div class="linksname">Global Anti-Corruption Policy</div>
+            <div class="linkstitle">See All Apps</div>
+            <button class="downloadbutton">DOWNLOAD NOW</button>
+        </div>
+        <div>
+            <div class="linkstitle">PhonePe Group</div>
+            <div class="linksname">Indus Appstoreexternal link icon</div>
+            <div class="linksname">Share.Marketexternal link icon</div>
+            <div class="linksname">Pincodeexternal link icon</div>
+            <div class="linkstitle">Credit Cards</div>
+            <div class="linksname">PhonePe HDFC Bank Co-Branded Credit Cards</div>
+            <div class="linkstitle">Certification</div>
+            <div><img src="https://www.phonepe.com/static/sisa-449d370383459eec6ef4f303989d5dd9.png" width="100"></div>
+        </div>
+    </div>
+    <div class="socialmedia">
+        <!-- <div class="linkstitle">Follow Us</div> -->
+        <span><i class="fa fa-facebook icon" aria-hidden="true"></i></span>
+        <span><i class="fa fa-twitter icon" aria-hidden="true"></i></span>
+        <span><i class="fa fa-instagram icon" aria-hidden="true"></i></span>
+        <span><i class="fa fa-linkedin icon" aria-hidden="true"></i></span>
+    </div>
+    <div class="footerline">
+        © 2023 PhonePe Private Limited.
+        All rights reserved.
     </div>
 
 </body>
